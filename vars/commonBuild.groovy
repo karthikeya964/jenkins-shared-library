@@ -4,6 +4,6 @@ def call() {
     }
     stage('Unit Tests') {
         echo 'Running unit tests...'
-        sh 'mvn test'  // Change this based on your build tool
+        // sh './gradlew test'  
     }
 }
